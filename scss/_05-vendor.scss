@@ -1,0 +1,55 @@
+.tns-outer {
+    padding: 0;
+
+}
+
+.tns-outer [hidden] {
+    display: none !important
+}
+
+.tns-outer [aria-controls],
+.tns-outer [data-action] {
+    cursor: pointer
+}
+
+.tns-slider {
+    -webkit-transition: all 0s;
+    -moz-transition: all 0s;
+    transition: all 0s
+}
+
+.tns-slider>.tns-item {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.tns-horizontal.tns-subpixel {
+    white-space: nowrap
+}
+
+.tns-horizontal.tns-subpixel>.tns-item {
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal
+}
+
+
+.tns-ovh {
+    overflow: hidden
+}
+
+.tns-visually-hidden {
+    position: absolute;
+    left: -10000em
+}
+
+
+.tns-vpfix {
+    white-space: nowrap
+}
+
+.tns-vpfix>div,
+.tns-vpfix>li {
+    display: inline-block
+}

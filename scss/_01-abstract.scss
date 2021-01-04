@@ -1,0 +1,63 @@
+$primary : #F8901F;
+$primary-1 : #F36B22;
+$secondary : #AEDAD9;
+$secondary-1 : #9ad1d0;
+$dark :#020B0A;
+$light :#fff;
+$gray: #F7F7F7;
+
+$font-regular: 'boost_next_regular',  sans-serif;
+$font-thin: 'boost_next_thin',  sans-serif;
+$font-black : 'boost_next_black',  sans-serif;
+$font-bold : 'boost_next_bold',  sans-serif;
+
+
+@font-face {
+    font-family: 'boost_next_regular';
+    src: url('../fonts/boostnext-regular-webfont.woff2') format('woff2'),
+         url('../fonts/boostnext-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'boost_next_thin';
+    src: url('../fonts/boostnext-thin-webfont.woff2') format('woff2'),
+         url('../fonts/boostnext-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'boost_next_black';
+    src: url('../fonts/boostnext-black-webfont.woff2') format('woff2'),
+         url('../fonts/boostnext-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'boost_next_bold';
+    src: url('../fonts/boostnext-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+//MIXINS
+
+@mixin box-shadow($level: .08) {
+    box-shadow: -3px 3px 5px rgba(0,0,0, $level);
+}
+
+@mixin media-query($width) {
+    @media screen and (max-width: $width) {
+        @content;
+    }
+}
+
+@mixin transition ($el) {
+    transition: $el .5s ease;
+}
