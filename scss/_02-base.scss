@@ -12,6 +12,10 @@ html {
     @include media-query(970px){
         font-size: 60%;
     }
+
+    @include media-query(420px){
+        font-size: 56%;
+    }
 }
 
 body {

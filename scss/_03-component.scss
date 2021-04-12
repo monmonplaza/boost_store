@@ -98,7 +98,9 @@ form {
         border-radius: 3rem;
         font-weight: bold;
         border: none;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
+        background-color: $primary;
+        color: $light;
         @include media-query(420px){
             padding: 1.4rem;
            }

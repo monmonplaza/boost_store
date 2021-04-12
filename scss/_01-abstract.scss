@@ -61,3 +61,20 @@ $font-bold : 'boost_next_bold',  sans-serif;
 @mixin transition ($el) {
     transition: $el .5s ease;
 }
+
+
+
+// Utilities
+
+.lg--only {
+    @include media-query(420px) {
+        display: none!important;
+    }
+}
+
+.sm--only {
+    display: none;
+    @include media-query(420px) {
+        display: block;
+    }
+}

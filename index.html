@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="preload" href="./fonts/boostnext-regular-webfont.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="./fonts/boostnext-regular-webfont.woff" as="font" type="font/woff" crossorigin>
     <link rel="preload" href="./fonts/boostnext-black-webfont.woff2" as="font" type="font/woff2" crossorigin>
@@ -21,25 +21,23 @@
                         <img class="lazyload" data-srcset="./img/logo.jpg" alt="Boost Mobile Logo">
                     </picture>
                     <div class="logo__text">
-                        <h2>Boost Mobile Lake Forest</h2>
-                        <span>Boost Mobile Local Official Store</span>
+                        <h2>Boost Mobile Local</h2>
+                        <span>Official Store</span>
                     </div>
                 </div>
 
-                <form action="">
-                    <select>
-                        <option value="">Get Direction</option>
-                    </select>
-                </form>
+                <h1 class="main__header">Boost Mobile Store Locator</h1>
 
-                <div class="cto">
-                    <h5>Call To Order <span class="text-primary">(949) 528-4362</span></h5>
-                </div>
+          
             </div>
         </div>
     </header>
     <section class="tagline">
-        <h1>In Store Offers, New Phones for Boost Mobile Lake Forest</h1>
+      <div class="container">
+          <div class="tagline__wrapper">
+            <h1>Boost Mobile Deals Near You</h1>
+          </div>
+      </div>
     </section>
 
     <section class="hero">
@@ -181,15 +179,7 @@
             </div>
         </div>
    </div>
- 
-   
- 
-      
- 
-    
- 
-  
-            </div>
+        </div>
 
             <picture  class="bg-slider bg-right">
                 <source srcset="./img/slider_bg_right.webp">
@@ -200,91 +190,117 @@
        </div>
     </section>
 
-    <section class="cta">
-        <a href="#" class="btn btn--black" id="btn_modal">Call Now!</a>
+    <section class="savebig">
+        <div class="container">
+
+            <div class="savebig__wrapper">
+                <h2>Shop Local and Save Big</h2>
+                <p>Don't wait for shipping. Find one of our 500+ stores that is closest to you
+                    to shop the latest smartphones, no-contract plans and accessories.</p>
+            </div>
+      
+        </div>
+    </section>
+
+
+    <section class="search">
+        <div class="container">
+            <div class="search__wrapper">
+                <h2>Search for a Boost Mobile Location</h2>
+                <a href="#" class="btn">City/State or Zip Code</a>
+            </div>
+      
+        </div>
     </section>
 
     <section class="location">
         <div class="container">
+            <p class="location__intro">We have over 500 stores across the country, from <span>Los Angeles</span> to <span>Houston</span>, <span>Dallas</span>, <span>San Antonio</span>, and <span>San Diego</span>. Enter Your location to find a Boost Mobile Local store near you.</p>
             <div class="location__grid">
-                <article>
-                    <h3 class="text-bold">Boost Mobile Phone Store Lake Forest</h3>
-                    <h4 class="text-bold">23372 El Toro Road, Lake Forest CA 92630</h4>
-                    <h4 class=" text-bold text-primary">(949) 528-4362</h4>
-           
-
-                   <p> Looking to buy the newest iPhone, Samsung Galaxy or LG smartphone? Want an unlimited plan where you can pay as you go with no long term contract or credit check? We can help you find the perfect wireless plan and hottest devices with matching accessories including headphones, cases, screen protectors, wireless chargers and more. Our Boost Mobile store is in {{City Token}} {{State Token}}. </p>
-                    <p>We are located at {{Full Address Token}} at the corner of {{blank and blank}}, next to {{store and store}}</p>
-
-                    <p>Our phone store is conveniently located off {{Street Name}} and proudly serves the {{City}} community and its surrounding neighborhoods.</p>
-
-                    <p>We are close to {{Downtown City}} and {{Blank}}  </p>
-
-                    <h4 class="text-bold">Store Hours</h4>
-                    <ul class="hrs-list">
-                        <li>Today - Open Until 7:00 PM</li>
-                        <li>Today - Open Until 7:00 PM</li>
-                        <li>Today - Open Until 7:00 PM</li>
-                        <li>Today - Open Until 7:00 PM</li>
-                        <li>Today - Open Until 7:00 PM</li>
+                <div class="location__btn sm--only">
+                    <ul>
+                        <li><a href="#" id="mapView">Map View</a></li>
+                        <li><a href="#" id="listView">List View</a></li>
                     </ul>
-                    <a href="#" id="showHours" class="show-all text-primary">Show All Hours</a>
-                    <a href="#" class="text-primary">Get Direction to 23372 El Toro Road, Lake Forest CA 92630</a>
-                    <iframe class="lazyload" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.73009096752!2d-117.68049158429842!3d33.638239746879485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dce85356c8a6af%3A0x688fba83126cc33!2sEl%20Toro%20Rd%2C%20Lake%20Forest%2C%20CA%2092630%2C%20USA!5e0!3m2!1sen!2sph!4v1609308530978!5m2!1sen!2sph" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="map__wrapper show map--item ">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.0467510210074!2d-118.19400228478924!3d33.88844978065073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2ccbafd0a1293%3A0x3d904d5af3e81f50!2s4526%20E%20Alondra%20Blvd%2C%20Compton%2C%20CA%2090221%2C%20USA!5e0!3m2!1sen!2sph!4v1618189089015!5m2!1sen!2sph"   style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <aside class="map--item">
+                   <div class="store store__item">
+                        <h4>Boost Mobile - Los Angeles</h4>
+                        <ul class="store__info">
+                            <li>
+                               <img src="./img/map-marker.png" alt="map Icon"> <span>2001 W Slauson Ave</span>                         
+                            </li>
 
-                    <h4 class="text-bold">Services</h4>
-
-                    <div class="services__grid">
-                        <ul>
-                            <li>IPhone</li>
-                            <li>Cell Phones</li>
-                            <li>Wireless Plans and Setup</li>
-                            <li>Phone Activations</li>
+                            <li >
+                                <img src="./img/map-phone.png" alt="phone Icon"> <span>Call Now: (555) 123-4567</span>                         
+                             </li>
                         </ul>
-                        <ul>
-                            <li>Device Upgrade</li>
-                            <li>Phone Accessories</li>
-                            <li>Device Protection</li>
-                            <li>Bill Pay and Setup</li>
-                        </ul>
-                        <ul>
-                            <li>Xfinity Prepaid (optional)</li>
-                            <li>Spanish (Optional)</li>
-                            <li>Cell Phone Repair (Optional)</li>
-                        </ul>
-                    </div>
-                </article>
-                <aside>
-                    <div class="social__media">
-                        <picture>
-                            <source srcset="./img/boost_store.webp">
-                            <img class="lazyload main_img" data-srcset="./img/boost_store.jpg" alt="Boost Store Image">
-                        </picture>
-                     <div class="find__us">
-                        <a href="#">Find us on <img class="lazyload" data-src="./img/icon-fb.png" alt="Facebook Icon"></a>
-                        <p class="text-bold">We Support Community Health <img class="lazyload" data-src="./img/icon-emoticon.png" alt="Emoticon Icon"></p>
-                     </div>
-                    </div>
 
-                    <picture class="usa_map">
-                        <source srcset="./img/usa_map.webp">
-                        <img class="lazyload main_img" data-srcset="./img/usa_map.jpg" alt="Boost Promo Image">
-                    </picture>
+                        <ul class="store__btn">
+                            <li><a href="#">Get Directions</a></li>
+                            <li><a href="#">Store Details</a></li>
+                        </ul>
+                   </div>
+                   <div class="store store__item">
+                    <h4>Boost Mobile - Los Angeles</h4>
+                    <ul class="store__info">
+                        <li>
+                           <img src="./img/map-marker.png" alt="map Icon"> <span>2001 W Slauson Ave</span>                         
+                        </li>
 
+                        <li >
+                            <img src="./img/map-phone.png" alt="phone Icon"> <span>Call Now: (555) 123-4567</span>                         
+                         </li>
+                    </ul>
+
+                    <ul class="store__btn">
+                        <li><a href="#">Get Directions</a></li>
+                        <li><a href="#">Store Details</a></li>
+                    </ul>
+                   </div>
+                   <div class="store store__item">
+                <h4>Boost Mobile - Los Angeles</h4>
+                <ul class="store__info">
+                    <li>
+                       <img src="./img/map-marker.png" alt="map Icon"> <span>2001 W Slauson Ave</span>                         
+                    </li>
+
+                    <li >
+                        <img src="./img/map-phone.png" alt="phone Icon"> <span>Call Now: (555) 123-4567</span>                         
+                     </li>
+                </ul>
+
+                <ul class="store__btn">
+                    <li><a href="#">Get Directions</a></li>
+                    <li><a href="#">Store Details</a></li>
+                </ul>
+                   </div>
+                   <div class="store store__item">
+            <h4>Boost Mobile - Los Angeles</h4>
+            <ul class="store__info">
+                <li>
+                   <img src="./img/map-marker.png" alt="map Icon"> <span>2001 W Slauson Ave</span>                         
+                </li>
+
+                <li >
+                    <img src="./img/map-phone.png" alt="phone Icon"> <span>Call Now: (555) 123-4567</span>                         
+                 </li>
+            </ul>
+
+            <ul class="store__btn">
+                <li><a href="#">Get Directions</a></li>
+                <li><a href="#">Store Details</a></li>
+            </ul>
+                   </div>
                 </aside>
+
+               
             </div>
         </div>
     </section>
-
-    <section class="main__cta">
-        <div class="container">
-        <div class="main__cta__wrapper">
-        <h2>Hey Lake Forest, Save Now! <br> <span>Our Best Deal for New and Existing Customers</span> <br> Call Us! (949) 528-4362</h2>
-        <a href="#" class="btn btn--black">Call Now!</a>
-    </div>
-    </div>
-    </section>
-    
 
     <section class="why__boost">
         <div class="container">
@@ -321,105 +337,18 @@
         </div>
     </section>
 
-    <section class="career">
-        <div class="container">
-            <div class="career__content">
-                <h2> Career Opportunities </h2>
-                <p>Boost Mobile Local is represented by VHA, a national Boost Mobile Master Agent with 1,200 authorized retail stores nationwide. Each store is individually owned and operated and is dedicated to providing superior service and quality wireless products featuring the latest technology. Please note, this is not an offer for Dish Network / Boost Mobile employment.</p>
-            </div>
-            
 
-            <h3 class="text-primary">Career at Boost Mobile Local</h3>
-            <div class="career__grid">
-                <div class="career__grid__item">
-                    <picture>
-                        <source srcset="./img/girl_glass.webp">
-                        <img class="lazyload" data-srcset="./img/girl_glass.jpg" alt="Girl with glass">
-                    </picture>
-                </div>
-
-                <div class="career__grid__item content">
-                    <p>As a Boost Mobile Authorized Retailer, our culture centers around the needs and satisfaction of our valued customers. Every one of our team members maintains the most current knowledge of wireless products and services to ensure we can help each customer find the best smartphone, cell phone plan and accessories available for their specific needs.</p>
-
-                    <p class="text-primary text-bold">Join the Boost Mobile Local team and grow with us!</p>
-
-                    <ul>
-                        <li>What makes working here great</li>
-                        <li>Great base pay and aggressive commission structure</li>
-                        <li>Paid training to ensure success</li>
-                        <li>Great work environment</li>
-                    </ul>
-
-                    <picture class="pattern">
-                        <source srcset="./img/pattern-2.webp">
-                        <img class="lazyload" data-srcset="./img/pattern-2.jpg" alt="pattern-2">
-                    </picture>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="hiring">
-        <div class="container">
-            <div class="hiring__wrapper">
-               <div class="hiring__item">
-                    <h3 class="text-primary">Wireless Sales Associate <br>(Full Time / Part Time)</h3>
-                    <p class="text-bold">Be a part of a successful, productive and winning team. </p>
-
-                    <div class="hiring__quality">
-                        <p>We are looking for:</p>
-                        <ul>
-                            <li>Tech savvy people</li>
-                            <li>Problem solvers</li>
-                            <li>Flexible availability to include nights, weekends and holidays</li>
-                            <li>A High School Degree or GED</li>
-                            <li>Successful completion of background and drug check</li>
-                            <li>Retail customer service or sales experience a plus</li>
-                            <li>At least 18 years of age</li>
-                            <li>Bilingual (some locations)</li>
-                        </ul>
-                    </div>
-
-                    <a href="#" class="btn btn--primary">Contact</a>
-               </div>
-
-               <div class="hiring__item">
-                <h3 class="text-primary">Retail Store Manager <br> (Full Time + Commision)</h3>
-                <p  class="text-bold">Are you self-motivated, driven and looking to be part of a winning team? We invest in our people to be the best and offer great benefits.</p>
-
-                <div class="hiring__quality">
-                    <p>Store Manager Receive:</p>
-                    <ul>
-                        <li>Competitive Pay</li>
-                        <li>Bonuses based on KPI's</li>
-                    </ul>
-                </div>
-
-                <div class="hiring__quality">
-                    <p>We are looking for:</p>
-                    <ul>
-                        <li>Retail Store Management Experience (2+ years)</li>
-                        <li>Wireless Industry experience</li>
-                        <li>Ability to plan, direct, supervise and coordinate activities of subordinates</li>
-                        <li>Work within company culture in a friendly, honest, direct and kind way</li>
-                    </ul>
-                </div>
-
-                <a href="#" class="btn btn--primary">Contact</a>
-           </div>
-            </div>
-        </div>
-
-    </section>
 
     <footer>
-        <p>Boost Mobile &copy; 2021 Boost Worldwide, Inc. All right reserved</p>
+        <p>Boost Mobile &copy; 2021 Boost Worldwide, Inc. All right reserved. <a href="#">Privacy Policy</a></p>
+        <a href="#">Become a Boost Mobile Dealer</a>
+        <a href="#" class="disclaimer">Click to show legal disclaimers</a>
     </footer>
 
-    <div class="modal">
+    <div class="modal ">
         <div class="modal__wrapper">
-            <h2>Get Phone Tips & Tricks, Gaming Apps, Parenting News & Store Coupons</h2>
-            <h3 class="text-primary">Sign Up Here!</h3>
+            <h2>Never Miss a Deal!</h2>
+            <h3 class="text-primary">Get Store Coupons</h3>
             <form action="">
                 <label for="fname"></label> 
                 <input type="text" name ="fname" placeholder="First Name">
@@ -436,7 +365,7 @@
                 <div class="checkbox__wrap">
                 <input type="checkbox"> <span  class="text-primary">Check if you are a current Boost Mobile customer</span>
                 </div>
-                <button>Submit</button>
+                <button>Sign up Here!</button>
 
             </form>
         </div>
@@ -461,13 +390,15 @@ var slider = tns({
 const modalBtn = document.querySelector('#btn_modal');
 const modal = document.querySelector('.modal');
 
-const hrslist = document.querySelector('.hrs-list');
-const hrsBtn = document.querySelector('#showHours');
 
-modalBtn.addEventListener('click', (e) => {
+
+if(modalBtn) {
+    modalBtn.addEventListener('click', (e) => {
     e.preventDefault();
     modal.classList.toggle('is-show');
 });
+
+}
 
 
 modal.addEventListener('click', (e) => {
@@ -476,18 +407,32 @@ modal.addEventListener('click', (e) => {
     }
 });
 
-hrsBtn.addEventListener('click', (e) => {
+
+
+const mapBtn = document.querySelector("#mapView");
+const listBtn = document.querySelector("#listView");
+
+function hideAllView () {
+    const mapItems = document.querySelectorAll('.map--item');
+    mapItems.forEach((item)=>{
+        item.classList.remove('show');
+    })
+}
+
+mapBtn.addEventListener('click', (e)=>{
     e.preventDefault();
-    hrslist.classList.toggle('expand')
-    if(hrslist.classList.contains('expand')) {
-        hrsBtn.innerHTML = "Hide All Hours"
-    } else {
-        hrsBtn.innerHTML = "Show All Hours"   
-    }
-})
+    hideAllView();
+    document.querySelector('.map__wrapper').classList.add('show')    
+});
+
+listBtn.addEventListener('click', (e)=>{
+    e.preventDefault();
+    hideAllView();
+    document.querySelector('aside').classList.add('show')    
+});
 
 
-    </script>
+</script>
 
 </body>
 </html>
